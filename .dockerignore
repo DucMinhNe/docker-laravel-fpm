@@ -1,0 +1,14 @@
+# Keep the build context tiny — only the Dockerfile, rootfs/ and public/ matter.
+.git
+.gitignore
+*.md
+LICENSE
+docker-hub-overview.md
+examples/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
